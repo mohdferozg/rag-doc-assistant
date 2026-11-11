@@ -13,8 +13,8 @@ DATA_DIR = ROOT_DIR / "data"
 
 # --- LLM ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
-EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-004")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
+EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "gemini-embedding-001")
 
 # --- Chunking ---
 CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", "500"))
