@@ -1,34 +1,40 @@
-RAG Doc Assistant
+# RAG Doc Assistant
+
 A conversational AI assistant that answers questions about a document collection (PDFs) using Retrieval-Augmented Generation (RAG). Built as a full-stack web application with FastAPI, Streamlit, and Google Gemini.
 
-Document Used: AWS Whitepaper - Navigating the security landscape of generative AI
+**Document Used:** AWS Whitepaper - *Navigating the security landscape of generative AI*
 
-🚀 Quick Setup (Local)
-Clone & Install
+---
 
-bash
-git clone <your-repo-url>
+## 🚀 Quick Setup (Local)
+
+**1. Clone & Install**
+
+```bash
+git clone https://github.com/mohdferozg/rag-doc-assistant.git
 cd rag-doc-assistant
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-Environment
+2. Environment
 
 bash
 cp .env.example .env
-# Open .env and add your GEMINI_API_KEY
-Run the App
+Open .env and add your GEMINI_API_KEY.
+
+3. Run the App
+
 Open two terminal windows (both with the venv activated):
 
 bash
 # Terminal 1: Backend API
 uvicorn src.api:app --reload --port 8000
-
+bash
 # Terminal 2: Frontend UI
 streamlit run app/streamlit_app.py
 Navigate to http://localhost:8501 in your browser.
 
-Run Evaluations
+4. Run Evaluations
 
 bash
 python -m eval.run_eval data/security-genai.pdf
