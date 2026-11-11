@@ -1,0 +1,27 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the five scopes of the AWS Generative AI Security Scoping Matrix?",
+    "expected_answer": "The matrix includes five scopes. Scope 1 and 2 involve off-the-shelf AI solutions. Scope 3, 4, and 5 involve more customized or internally developed AI solutions."
+  },
+  {
+    "id": "q2",
+    "question": "What is shadow generative AI?",
+    "expected_answer": "Shadow generative AI occurs when organizations ban or are slow to adopt AI, causing employees to use unapproved consumer-grade applications, creating unmanaged data risks."
+  },
+  {
+    "id": "q3",
+    "question": "What are the mitigation strategies for context window overflow?",
+    "expected_answer": "Input management (limit input size) and real-time monitoring (trigger alerts when nearing capacity)."
+  },
+  {
+    "id": "q4",
+    "question": "What is the purpose of the AWS Security Guardians program?",
+    "expected_answer": "It trains Amazon staff on how to do security reviews, collaborate on security-first approaches, and identify when to escalate to security engineering."
+  },
+  {
+    "id": "q5",
+    "question": "How does AWS recommend managing data access for data science teams?",
+    "expected_answer": "Through deidentification of production data, synthetic data, auditing access logs, and keeping data contained in the cloud."
+  }
+]

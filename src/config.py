@@ -17,8 +17,8 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "gemini-embedding-001")
 
 # --- Chunking ---
-CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", "500"))
-CHUNK_OVERLAP = int(os.environ.get("CHUNK_OVERLAP", "50"))
+CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", "1000"))
+CHUNK_OVERLAP = int(os.environ.get("CHUNK_OVERLAP", "200"))
 
 # --- Retrieval ---
 TOP_K = int(os.environ.get("TOP_K", "5"))

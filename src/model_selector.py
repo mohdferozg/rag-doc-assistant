@@ -7,7 +7,8 @@ from src.config import require_api_key
 
 # Preference order: newest Flash first, fallbacks after
 PREFERRED_MODELS = [
-    "gemini-3.6-flash",       # ← more stable on free tier
+    "gemini-3.5-flash-lite",  # or gemini-3.1-flash-lite
+    "gemini-3.6-flash",
     "gemini-3.5-flash",
     "gemini-3.8-flash",       # ← try after
     "gemini-3.5-flash-lite",

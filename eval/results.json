@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the five scopes of the AWS Generative AI Security Scoping Matrix?",
+    "actual": "I don't know based on the provided document.",
+    "correct": false,
+    "reason": "The actual answer incorrectly states that the information is not in the document, whereas the retrieved context actually contains the expected details about the five scopes."
+  },
+  {
+    "id": "q2",
+    "question": "What is shadow generative AI?",
+    "actual": "Shadow generative AI refers to the unmanaged and uncontrolled data risks created when employees find ways to use consumer-grade (scope 1) applications because organizations outright ban generative AI or are slow to adopt it [p. 12].",
+    "correct": true,
+    "reason": "The actual answer accurately captures all key points from the expected answer, explaining that shadow generative AI arises from organizational bans or slow adoption leading to employee use of consumer-grade applications and resulting in unmanaged data risks."
+  },
+  {
+    "id": "q3",
+    "question": "What are the mitigation strategies for context window overflow?",
+    "actual": "The mitigation strategies for context window overflow are:\n\n* **Input management:** Limit input size, prioritize essential information, and sanitize potentially harmful or excessive inputs before they reach the model [p. 14].\n* **Real-time monitoring:** Use monitoring systems to trigger alerts when the context window is nearing capacity, and proactively manage overflow by truncating unessential data [p. 14].",
+    "correct": true,
+    "reason": "The actual answer accurately identifies both input management and real-time monitoring as mitigation strategies for context window overflow, matching the expected answer."
+  },
+  {
+    "id": "q4",
+    "question": "What is the purpose of the AWS Security Guardians program?",
+    "actual": "The AWS Security Guardians program trains Amazon staff how to do security reviews, collaborate with teams on taking a security-first approach, and identify when to escalate to security engineering [p. 6].",
+    "correct": true,
+    "reason": "The actual answer accurately captures all the key points from the expected answer regarding the purpose of the AWS Security Guardians program."
+  },
+  {
+    "id": "q5",
+    "question": "How does AWS recommend managing data access for data science teams?",
+    "actual": "To manage data access for data science teams, organizations can use deidentification of production data, though it can be challenging due to differing definitions of PII across countries [p. 11]. Another approach is using synthetic data, as new approaches for generating synthetic data are increasingly showing efficacy for generative AI applications [p. 11].",
+    "correct": true,
+    "reason": "The actual answer successfully identifies deidentification of production data and synthetic data as recommended approaches, matching the key points from the expected answer based on the provided context."
+  }
+]
