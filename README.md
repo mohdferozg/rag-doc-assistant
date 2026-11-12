@@ -22,6 +22,8 @@ bash
 cp .env.example .env
 Open .env and add your GEMINI_API_KEY.
 
+Important: You must set this key before starting the backend server, otherwise the app will fail with a 401 Unauthorized error.
+
 3. Run the App
 
 Open two terminal windows (both with the venv activated):
